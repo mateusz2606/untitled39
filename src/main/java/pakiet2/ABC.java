@@ -28,7 +28,6 @@ public class ABC {
                     Element e=(Element) list.item(i);
                     System.out.println(e.getNodeName());
                     System.out.println(e.getChildNodes().getLength());
-                   // System.out.println(e.getChildNodes().item(0).getFirstChild().getNodeValue());
                 }
             }
         }
